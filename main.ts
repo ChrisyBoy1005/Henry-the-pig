@@ -447,9 +447,6 @@ for (let value of tiles.getTilesByType(assets.tile`myTile17`)) {
     tiles.setTileAt(value, assets.tile`transparency16`)
     attacker.follow(mySprite, 50)
     attacker.ax = 5
-    if (attacker.vx == 0) {
-        attacker.ay = 500
-    }
     if (attacker.vx < 0) {
         attacker.image.flipX()
     }
